@@ -44,9 +44,7 @@ describe('test search functionality', function() {
 	var allDates = element.all(by.options('d.Date as d.Text for d in dates'));
 	var firstDate = allDates.get(3);
 	firstDate.click();
-
-	//sometimes you have to use :(
-	browser.sleep(2000);
+	
 	element(by.buttonText('SATIN AL')).click();
 
 
