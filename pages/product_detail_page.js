@@ -31,13 +31,10 @@ var product_detail_page = function(){
 	};
 
 	this.addToBasket = function(){
-		//sometimes you have to use :(
-		browser.sleep(2000);
 		element(by.buttonText('SATIN AL')).click();
 	};
 
 	this.getOrderStep = function(){
-		browser.sleep(2000);
 		return element(by.css('.order-step-number')).getText();
 	};
 };
