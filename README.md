@@ -1,4 +1,4 @@
 protractor_demo
 ===============
 
-project created
+A basic protractor example
