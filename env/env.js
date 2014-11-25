@@ -1,7 +1,6 @@
 module.exports = {
 
-  seleniumAddress: 
-    (process.env.SELENIUM_URL || 'http://127.0.0.1:4723/wd/hub'),
+  seleniumAddress:'http://127.0.0.1:4723/wd/hub',
 
   capabilities: {
     browserName: 'chrome',
